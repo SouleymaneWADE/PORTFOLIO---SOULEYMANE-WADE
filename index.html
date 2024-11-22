@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO - SOULEYMANE WADE</title>
+    <meta name="description" content="Qui est Souleymane Wade ? Retrouver toutes les informations sur la vie professionnelle de Souleymane Wade.">
+    <meta name="robots" content="index">
+    <meta name="keywords" content="infographie, developpeur, leader, responsable, jeune">
+    <meta name="author" content="Souleymane Wade">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+<!-- <?php
+    $servername ="localhost";
+    $username= "root";
+    $password="";
+    $dbname ="base";
+    try{
+        $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username,$password);
+        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        echo "😁";
+    }
+    catch (PDOException $e){
+        echo "😡" . $e->getMessage();
+    }
+    if(isset($_POST['submit']))
+    {
+        $nom = $_POST['nom'];
+        $prenom = $_POST['prenom'];
+        $email = $_POST['email'];
+        $commentaire = $_POST['commentaire'];
+
+        $sql = ("INSERT INTO utilisateurs(nom, prenom, email, commentaire) VALUES (:nom, :prenom, :email, :commentaire)");
+        $stmt = $conn->prepare($sql);
+        $stmt->bindParam(':nom', $nom);
+        $stmt->bindParam(':prenom', $prenom);
+        $stmt->bindParam(':email', $email);
+        $stmt->bindParam(':commentaire', $commentaire);
+        $stmt->execute();
+    }
+?> -->
+    
+    <header class="header">
+        <a class="logo" href="#">Souleymane.<span class="animate" style="--i:1;"></span></a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">ACCEUIL</a>
+            <a href="#about">QUI SUIS-JE ?</a>
+            <a href="#education">JOURNAL</a>
+            <a href="#competence">COMPETENCES</a>
+            <a href="#contact">CONTACT</a>
+
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+    </header>
+
+    <section class="home show-animate" id="home">
+        <div class="home-content">
+            <h1>Salam, <span>Souleymane Wade</span><span class="animate" style="--i:2;"></span></h1>
+            <div class="text-animate">
+                <h3>Infographiste - Développeur</h3>
+                <span class="animate" style="--i:3;"></span>
+            </div>
+            <p>
+                Souleymane Wade à l'état-civil, mais vous pouvez m'appeler Jules. <br>
+                Je suis passionné de tout ce qui est créations audiovisuelles.
+                Avant d'aller plus loin, je vous invite à consulter ma présentation. ( <span>Qui suis-je ?</span> )
+                <span class="animate" style="--i:4;"></span>
+            </p>
+            <div class="btn-box">
+                <a href="recrutez-moi.php" class="btn">RECRUTEZ-MOI</a>
+                <a href="contactez-moi.php" class="btn" style="border: .2rem solid skyblue;">CONTACTEZ-MOI</a>
+                <span class="animate" style="--i:5;"></span>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <span class="animate" style="--i:6;"></span>
+        </div>
+
+        <div class="home-imgHover"></div>
+        <span class="animate home-img" style="--i:7;"></span>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="heading"> QUI SUIS-JE ?<span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="about-img">
+            <img src="ABOUT.png" alt="">
+            <span class="circle-spin"></span>
+            <span class="animate scroll" style="--i:2;"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>Infographiste - Développeur !<span class="animate scroll" style="--i:3;"></span></h3>
+            <p>
+                <span>Jeune</span> - <span>Responsable</span> - <span>Engagé</span>. J'ai suivi une formation en <span>Leadership</span> et en <span>Developpement Personel</span>. <br> 
+                Je suis membre de plusieurs <span>organisations à but nos lucratifs</span>, où je developpe mes capacités en <span>Leadership</span>. <br> 
+                Je sais <span>travailler en symbiose</span> avec mon équipe et remplir totalement les tâches qui me sont confiées.
+                <span class="animate scroll" style="--i:4;"></span>
+            </p>
+
+            <div class="btn-box btns">
+                <a href="about.html" class="btn">Voir Plus</a>
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+        </div>
+    </section>
+    
+    <section class="education" id="education">
+        <h2 class="heading"> MON <span> JOURNAL </span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calandar'></i> 2014 - 2015 </div>
+                            <h3> Certificat de Fin d'Etudes Elementaires </h3>
+                            <p>
+                                Ecole Elementaire Iba Caty Bâ de Thiès 
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calandar'></i> 2018 -2019 </div>
+                            <h3> Brevet de Fin d'Etudes Moyennes <br> Brevet de Fin d'Etudes Moyennes </h3>
+                            <p>
+                                CEM Amadou Coly Diop de Thiès   
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calandar'></i> 2021 - 2022 </div>
+                            <h3> Baccalaureat Litteraire </h3>
+                            <p>
+                                Lycée Jules Sagna de Thiès
+                            </p>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+
+            <div class="education-column">
+                <h3 class="title">Experience<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calandar'></i> 2021 - 2022 </div>
+                            <h3> Président du Gouvernement Scolaire </h3>
+                            <p>
+                                Lycée Jules Sagna de Thiès   
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calandar'></i> 2021 - 2022 </div>
+                            <h3> Secrétaire Général du Collectif Régional des Gouvernements Scolaires de Thiès</h3>
+                            <p>
+                                Siegé au lycée Ahmadou Ndack Seck de Thiès    
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calandar'></i> 2022 - 2023 </div>
+                            <h3> Gérant et comptable </h3>
+                            <p>
+                                DER/FDJ à Thiès    
+                            </p>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:6;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="competence" id="competence">
+        <h2 class="heading"> MES <span> COMPETENCES </span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="competence-row">
+            <div class="competence-column">
+                <h3 class="title">Developpement Web<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="competence-box">
+                    <div class="competence-content">
+                        <div class="progress">
+                            <h3> HTML <span>85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+    
+                        <div class="progress">
+                            <h3> CSS <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+    
+                        <div class="progress">
+                            <h3> JAVASCRIPT <span>25%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+    
+                        <div class="progress">
+                            <h3> PHP <span>25%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+
+            <div class="competence-column">
+                <h3 class="title">Infographie<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="competence-box">
+                    <div class="competence-content">
+                        <div class="progress">
+                            <h3> DESIGN WEB <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+    
+                        <div class="progress">
+                            <h3> DESIGN WEB <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+    
+                        <div class="progress">
+                            <h3> DESIGN GRAPHIC <span>50%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+    
+                        <div class="progress">
+                            <h3> DESIGN GRAPHIC <span>50%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:6;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projet" id="projet">
+        <h2 class="heading"> MES <span> PROJETS </span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="projet-row">
+            <div class="projet-column">
+                <h3 class="title">Developpement Web<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="projet-box">
+                    <div class="projet-content">
+                        
+                    </div>
+
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+
+            <div class="projet-column">
+                <h3 class="title">Infographie<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="projet-box">
+                    <div class="projet-content">
+
+                    </div>
+
+                    <span class="animate scroll" style="--i:6;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <h2 class="heading"> CONTACTEZ-<span>MOI !</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <!-- <?php include('contact.php');?> -->
+
+        <form action="index.php" method="POST">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" name="nom" placeholder="Nom Complet" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="email" name="prenom" placeholder="Adresse Email" required>
+                    <span class="focus"></span>
+                </div>
+                <span class="animate scroll" style="--i:3;"></span>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" name="email" placeholder="Numero Téléphone" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" name="commentaire" placeholder="Objet de votre mail" required>
+                    <span class="focus"></span>
+                </div>
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Votre Message" required></textarea>
+                <span class="focus"></span>
+                <span class="animate scroll" style="--i:7;"></span>
+            </div>
+
+            <div class="btn-box btns">
+                <button type="submit" name="submit" value="Envoyer" class="btn">ENVOYER</button>
+                <span class="animate scroll" style="--i:9;"></span>
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Souleymane | All Rights Reserved.</p>
+
+            <span class="animate scroll" style="--i:1;"></span>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+
+            <span class="animate scroll" style="--i:3;"></span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
